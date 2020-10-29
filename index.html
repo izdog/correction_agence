@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+    <title>easyboat - Agance de voyage</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-brand">
+            <a href=""><img src="assets/easyboat.png" alt="logo">easyboat</a>
+        </div>
+        <div class="nav-links">
+            <ul>
+                <li><a href="#agence">Nos agences</a></li>
+                <li><a href="#nos_voyages">Nos voyages</a></li>
+                <li><a class="picto" href="#compte"><img src="assets/pictos/user.png" alt="user pictogramme">Mon compte</a></li>
+            </ul>
+        </div>
+    </nav>
+    <header>
+        <img src="assets/landscape.jpg" alt="landscape">
+        <h1>Votre voyage commence ici !</h1>
+    </header>
+    <section id="bonne_affaires">
+        <h1 class="my-5">Nos bonnes affaires</h1>
+        <div class="flex-container">
+            <div class="affaire">
+                <img src="assets/trek1.jpg" alt="">
+                <div class="affaire-content orange">
+                    <div class="affaire-body">
+                        <h2>trekking aride</h2>
+                        <p>De longue balade dans le désert</p>
+                    </div>
+                    <div class="affaire-price">à partir de <br><span class="price">395€</span></div>
+                </div>
+            </div>
+            <div class="affaire">
+                <img src="assets/trek2.jpg" alt="">
+                <div class="affaire-content green">
+                    <div class="affaire-body">
+                        <h2>black forest</h2>
+                        <p>De longue balade dans la fôret allemande</p>
+                    </div>
+                    <div class="affaire-price">à partir de <br><span class="price">395€</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="flex-container">
+            <div class="affaire-bottom">
+                <img src="assets/france.jpg" alt="france">
+                <div class="affaire-content blue">
+                    <h2>france</h2>
+                </div>
+            </div>
+            <div class="affaire-bottom">
+                <img src="assets/croatie.jpg" alt="croatie">
+                <div class="affaire-content orange">
+                    <h2>croatie</h2>
+                </div>
+            </div>
+            <div class="affaire-bottom">
+                <img src="assets/grece.jpg" alt="grece" >
+                <div class="affaire-content blue">
+                    <h2>grèce</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="why_easeboat">
+        <h1 class="my-5">Pourquoi choisir easyboat</h1>
+        <div class="flex-container justify-between">
+            <div class="hexa">
+                <img src="assets/like.svg" alt="thumb_up">
+                <p>Numéro 1 mondiale du traquenard</p>
+            </div>
+            <div class="hexa">
+                <img src="assets/medal.svg" alt="medal">
+                <p>Des hôtes choisis avec soin</p>
+            </div>
+            <div class="hexa">
+                <img src="assets/support.svg" alt="support guy">
+                <p>Service client à votre écoute</p>
+            </div>
+            <div class="hexa">
+                <img src="assets/gps.svg" alt="map">
+                <p>236 agences à votre service</p>
+            </div>
+        </div>
+    </section>
+    <svg id="wave" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1584 144"><defs><style>.cls-1{fill:#4c5d73;}</style></defs><title>wave</title><path class="cls-1" d="M1584,0c-36,0-153,72-216,72S1215,0,1080,0,909,72,792,72,612,0,504,0,297,72,216,72,36,0,0,0V144H1584Z"/></svg>
+    <section class="reverse" id="contact">
+        <div class="container">
+            <h1 class="mb-5">Nous contacter</h1>
+            <form class="flex-container" action="#">
+                <div class="col">
+                    <div class="form-group">
+                        <label for="prenom">Prénom</label>
+                        <input type="text" name="prenom" id="prenom">
+                    </div>
+                    <div class="form-group">
+                        <label for="nom">Nom</label>
+                        <input type="text" name="nom" id="nom">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="form-group">
+                        <label for="message">Votre message</label>
+                        <textarea name="message" id="message"></textarea>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="separator"></div>
+        <div class="flex-container justify-between">
+            <ul>
+                <li><a href="">Voyages</a></li>
+                <li><a href="">Circuit</a></li>
+                <li><a href="">Séjour</a></li>
+                <li><a href="">Dernière minutes</a></li>
+            </ul>
+            <ul>
+                <li><a href="">Hôtels & Clubs</a></li>
+                <li><a href="">Hôtels</a></li>
+                <li><a href="">Clubs junior</a></li>
+                <li><a href="">Clubs sénior</a></li>
+            </ul>
+            <ul>
+                <li><a href="">Bon plan voyage</a></li>
+                <li><a href="">Voyages rien compris</a></li>
+                <li><a href="">Séjour tout compris</a></li>
+                <li><a href="">Destination favorites</a></li>
+            </ul>
+            <ul>
+                <li><a href="">Vacances de pâques</a></li>
+                <li><a href="">Où partir pour la grisaille</a></li>
+                <li><a href="">Où partir pas cher</a></li>
+                <li><a href="">Idée de voyages</a></li>
+            </ul>
+        </div>
+        <div class="copyright">© 2020 Mr.Machin Group | All right reserved | Terms of use | Privacy Policy | DMCA <br>Support</div>
+    </footer>
+</body>
+</html>
